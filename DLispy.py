@@ -119,4 +119,4 @@ def eval(x, env=global_env):
 
 filePath = sys.argv[1]
 f = open(filePath)
-print(eval(parse(f.read())))
+print(eval(parse('(begin' + f.read() + ')')))
