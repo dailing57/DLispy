@@ -1,2 +1,2 @@
 # DLispy
-DL's Lisp contributed by python
+DL's Lisp interpreter using python
